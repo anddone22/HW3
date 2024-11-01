@@ -5,7 +5,7 @@ HW 3: This project runs a server that adds Cherry to Basket_a and displays uniqu
 
 First, open main.py and change the username and password to the apporiate user
 
-install a Python 3 virtual environment with:
+Install a Python 3 virtual environment with:
 ```
 sudo apt-get install python3-venv
 ```
@@ -31,7 +31,7 @@ Then you can start the server with:
 python3 main.py
 ```
 
-###uses
+### uses
 
 To add Cherry to basket_a navigate to 
 '''
