@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<title>HW3 Andrew Williams</title>
+		<style>
+			table,th,td {
+				border:1px solid black;
+			}
+			div{
+				display:flex;
+			}
+		</style>
+</head>
+
+<body>
+	<div>
+	<table>
+		<tr>
+			{% for col_nameA in table_titleA %}
+
+			<th>{{col_nameA}}</th>
+			{% endfor %}
+		</tr>
+		{% for row in sql_tableA %}
+		<tr>
+		{% for colA in row %}
+			<td>{{colA}}</td>
+		{% endfor %}
+		</tr>
+		{% endfor %}
+
+	</table>
+
+
+	<table>
+		<tr>
+			{% for col_nameB in table_titleB %}
+
+			<th>{{col_nameB}}</th>
+			{% endfor %}
+		</tr>
+		{% for row in sql_tableB %}
+		<tr>
+		{% for colB in row %}
+			<td>{{colB}}</td>
+		{% endfor %}
+		</tr>
+		{% endfor %}
+
+	</table>
+	</div>
+	<hr>
+</body>
+</html>
+
