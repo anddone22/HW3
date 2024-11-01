@@ -31,7 +31,7 @@ Then you can start the server with:
 python3 main.py
 ```
 
-### uses
+### Uses
 
 To add Cherry to basket_a navigate to 
 '''
